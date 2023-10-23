@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Practica 3 PHP</title>
+    </head>
+    <body>
+        <header>
+            <div class="Titulo">
+                <h1>Práctica 3 PHP</h1>
+            </div>
+        </header>
+        <br>
+            <form action="Ejercicio1.php" method="post">
+            <div class="Formulario">
+                <label for="precio">Gastos de envio</label>
+                <input type="text" name="Compra" placeholder="Introduce el precio total de la cesta">
+                <input type="submit" name="Gastos">
+            </div>
+            </form>
+
+            <br></br>
+            <form action="../Practica_3/Ejercicio2.php" method="post">
+                <div class="Formulario">
+                    <label for="precio">Precio total</label>
+                    <input type="number" id="precio" name="precio" placeholder="Introduce el precio total de la cesta">
+                    <input type="submit" name="calcular">
+                </div>
+            </form>
+
+            <br></br>
+            <form action="Ejercicio3.php" method="post">
+                <div class="Formulario">
+                    <label for="precio">El numero mayor</label>
+                    <input type="number" name="numero1" id="numero1" required>
+                    <input type="number" name="numero2" id="numero2" required>
+                    <input type="number" name="numero3" id="numero3" required>
+                    <input type="number" name="numero4" id="numero4" required>
+                    <input type="number" name="numero5" id="numero5" required>
+                    <br><br>
+                    <input type="submit" value="Calcular">
+                </div>
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+
+    </body>
+</html>
